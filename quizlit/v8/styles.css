@@ -1,0 +1,79 @@
+body{
+    background-color:dodgerblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 20vh;
+    text-align: center;
+   background-color: dodgerblue;
+   background-size: 20px;
+   color: white;
+
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+.background-yellow{ 
+    background-color: #FEDC25;
+}
+.background-blue{
+    background-color: rgba(76, 144, 212, 0.562);
+}
+.background-green{
+    background-color: #80c683;
+}
+.background-orange{
+    background-color: #f1662b;
+} 
+ol{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: 24vw;
+    font-size: 24px;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px black;
+    width: 20vw;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;   
+}
+footer{
+       background-color: dodgerblue
+}
+/* responsive*/
+
+@media (max-width:600px){
+    h1{
+        font-size: 10vh;
+    }
+.card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px black;
+    width: 25vw;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+
+}
+}
+@media (min-width:600px){
+    h1{
+        font-size: 15vh;
+    }
+.card{
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px black;
+    width: 20vw;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+
+}
+}

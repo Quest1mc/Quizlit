@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- [ ] Copy `index.html`, `wrong.html` and `correct.html` from `quizlit/v6` to `quizlit/v7`. 
+[ ] Change your internal stylesheet to an external one  
+[ ] Link your external stylesheet to `wrong.html` and `correct.html`.  
+[ ] Apply a custom font from google-fonts   -->
+
+    <html>
+        <head>
+            <title> Quiz App</title>
+            <link rel="stylesheet" href="styles.css">
+            <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
+            <script src="jquery.-3.3.1.js"></script>
+        </head>
+        <body>
+            <header> <h1>Quiz App</h1></header>
+           
+            <div> <h2>What is the largest freshwater lake in the world?</h2> 
+            </div>
+            <div>
+                <ol type="A">
+                    <li class="background-yellow card" id="1"> lake superior</li>
+                    <li class="background-blue card"> <a href="wrong.html">lake Bailka</a> </li>
+                    <li class="background-green card"> <a href="wrong.html">lake Victoria</a> </li>
+                    <li class="background-orange card"> <a href="wrong.html">lake Huron </a> </li>
+                    <a href=""></a>
+
+                </ol> </div>
+                <h3> Made by Stefan Quest in a skill exploration class from Rein Opt land</h3>
+
+        <!-- Adding jquery to the file to be able to switch cards inplace -->
+        <script>
+            $(function() {
+                $(".background-yellow").on('click', function(){
+                $(".background-yellow").replaceWith("Yaay! Correctomundo!");
+            }) 
+            });
+            $(function(){
+                $("Yaay! Correctomundo!").addClass(".background-yellow .card")
+
+            });
+        </script>
+        </body>
+        <footer>
+          
+        </footer>
+
+            
+    </html>

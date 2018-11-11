@@ -1,0 +1,57 @@
+body {
+    /* reset default margins of all elements */
+    /* prevents the white border around your page */
+    margin: 0px;
+
+    background-color: #F10230;
+    text-align: center;   
+    font-family: 'Athiti', sans-serif;
+}
+
+header {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+section {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Pattaya', sans-serif;
+    color: #F10230;
+    font-size: 48px;
+    margin: 0;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    width: 24vw;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+    list-style-type: none;
+}
+
+footer {
+    color: grey
+}
+
+.card {
+    background-color: #F10230;
+    margin: 1vw;
+    padding: 1vw;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px  #FFFFFF;
+}
+
+.done {
+    text-decoration: line-through;
+}

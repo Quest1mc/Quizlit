@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- [ ] In the layout/quizlit/v1 folder make a file called `index.html`  
+
+[ ] Create a basic HTML structure using:
+- Doctype declaration
+- html tags
+- head tags 
+- body tags
+
+[ ] Add the specific content for our quiz app:
+- Nested inside the head tags:
+    - A title tag with the name of the app
+- Nested inside the body tags:
+    - A big heading with the name of the app
+    - 2 divisions in the middle of the page
+    - The first division contains the question
+    - The second division contains the 4 answers
+    - A small heading at the body of the page with your name -->
+
+    <html>
+        <head>
+            <title> Quiz App</title>
+            
+        </head>
+        <body>
+            <header> <h1>Quiz App</h1></header>
+           
+            <div> What is the largest freshwater lake in the world?
+            </div>
+            <div>
+                <ol type="A">
+                    <li class="background-yellow card"> <a href="correct.html">lake superior</a> </li>
+                    <li class="background-blue card"> <a href="wrong.html">lake Bailka</a> </li>
+                    <li class="background-green card"> <a href="wrong.html">lake Victoria</a> </li>
+                    <li class="background-orange card"> <a href="wrong.html">lake Huron </a> </li>
+                    <a href=""></a>
+
+                </ol> </div>
+            <h3>Stefan Quest</h3>
+        </body>
+        <footer>
+            
+        </footer>
+        <style>
+            /* [ ] Add style tags  
+[ ] Change the background of your big heading to `dodgerblue`  
+[ ] Center the text of big heading  
+[ ] Change the color of text of the big heading to white    
+[ ] Change the background of the body to `#ECF0F1`  */
+body{
+    background-color: #ecf0f1;
+}
+h1{
+    font-size: 20vh;
+    text-align: center;
+   background-color: dodgerblue;
+   background-size: 20px;
+   color: white;
+
+}
+.background-yellow{ 
+    background-color: #FEDC25;
+}
+.background-blue{
+    background-color: #1E90FF;
+}
+.background-green{
+    background-color: #80c683
+
+}
+.background-orange{
+    background-color: #f1662b
+
+
+} 
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px black;
+    width: 10vw;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+           </style>
+            
+    </html>

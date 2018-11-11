@@ -1,0 +1,35 @@
+body{
+    background-color: #ecf0f1;
+}
+h1{
+    font-size: 20vh;
+    text-align: center;
+   background-color: dodgerblue;
+   background-size: 20px;
+   color: white;
+
+}
+.background-yellow{ 
+    background-color: #FEDC25;
+}
+.background-blue{
+    background-color: #1E90FF;
+}
+.background-green{
+    background-color: #80c683
+
+}
+.background-orange{
+    background-color: #f1662b
+
+
+} 
+.card {
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 2px black;
+    width: 10vw;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    
+}
