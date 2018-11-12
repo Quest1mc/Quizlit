@@ -15,26 +15,40 @@
             </div>
             <div>
                 <ol type="A">
-                    <li class="background-yellow card" id="1"> lake superior</li>
-                    <li class="background-blue card"> <a href="wrong.html">lake Bailka</a> </li>
-                    <li class="background-green card"> <a href="wrong.html">lake Victoria</a> </li>
-                    <li class="background-orange card"> <a href="wrong.html">lake Huron </a> </li>
-                    <a href=""></a>
+                    <li class="background-yellow card"> lake superior</li>
+                    <li class="background-blue card"> lake Bailka </li>
+                    <li class="background-green card"> lake Victoria </li>
+                    <li class="background-orange card"> lake Huron  </li>
+                    
 
                 </ol> </div>
                 <h3> Made by Stefan Quest in a skill exploration class from Rein Opt land</h3>
-
+                
         <!-- Adding jquery to the file to be able to switch cards inplace -->
         <script>
             $(function() {
                 $(".background-yellow").on('click', function(){
-                $(".background-yellow").replaceWith("Yaay! Correctomundo!"),;
+                $(".background-yellow").replaceWith("Correct");
             }) 
             });
-            $(function(){
-                $("Yaay! Correctomundo!").addClass(".background-yellow .card")
-
+            $(function() {
+                $(".background-blue").on('click', function(){
+                $(".background-blue").replaceWith("wrong");
+            }) 
             });
+            $(function() {
+                $(".background-green").on('click', function(){
+                $(".background-green").replaceWith("wrong");
+            }) 
+            });
+            $(function() {
+                $(".background-orange").on('click', function(){
+                $(".background-orange").replaceWith("wrong");
+            }) 
+            });
+           
+
+             
         </script>
         </body>
         <footer>
@@ -43,3 +57,10 @@
 
             
     </html>
+
+    <!-- $('.login-button').on('click', () => {
+        $('.login-form').toggle();
+
+        	
+$( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
+      }); -->

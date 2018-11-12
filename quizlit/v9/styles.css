@@ -17,6 +17,9 @@ h2{
     font-family: 'Playfair Display', serif;
     font-size: 35px;
 }
+.answers{
+    display: none
+}
 .background-yellow{ 
     background-color: #FEDC25;
 }
